@@ -1,0 +1,30 @@
+.bgColor{
+    background-color: #05BE70;
+    border-radius: 16px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:410px;
+    height:172px;
+}
+.heading{
+    font-family: Roboto;
+font-size: 48px;
+font-weight: 900;
+line-height: 58px;
+color:white;
+text-align: center;
+margin:140px 0px 32px 0px;
+
+
+}
+.paragraph{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color:white;
+width:362px
+}

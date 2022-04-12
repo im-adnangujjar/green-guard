@@ -1,0 +1,8 @@
+.bgImage{
+    background-image: url("../public/Group 60.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* margin-top:-300px */
+}

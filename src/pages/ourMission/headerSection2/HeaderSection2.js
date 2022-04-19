@@ -45,7 +45,7 @@ function OurMission() {
         <h2 className={styles.heading2} >Reversing the trend</h2>
         <div className={styles.display}>
         {
-          trend.map((item)=>{
+          trend.map((item ,index)=>{
 
             return <Card key ={index} trend={item}/>
           })   

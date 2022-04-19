@@ -15,9 +15,9 @@ function About() {
 
       <h2 className={styles.heading}>FAQ</h2>
       {
-        dropDown.map((item) => {
+        dropDown.map((item, index) => {
           return (
-            <Dropdown dropDown={item} />
+            <Dropdown key={idex} dropDown={item} />
           )
         }
         )}

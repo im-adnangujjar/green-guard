@@ -3,7 +3,6 @@ import styles from  "../../../../style/HeaderSection1.module.css"
 import Navbar from '../../../component/navbar/Navbar'
 import Button1 from '../../../component/button1/Button1'
 import Dropdown from "../../../component/dropdown/Dropdown"
-import Image from  'Next/image'
 import { dropDown } from "../../../constant/Data"
 
 function About() {

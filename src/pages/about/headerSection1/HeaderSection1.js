@@ -3,14 +3,13 @@ import styles from  "../../../../style/HeaderSection1.module.css"
 import Navbar from '../../../component/navbar/Navbar'
 import Button1 from '../../../component/button1/Button1'
 import Dropdown from "../../../component/dropdown/Dropdown"
+import Image from  'Next/image'
 import { dropDown } from "../../../constant/Data"
-// import Drawer from '../../../component/drawer/Drawer'
 
 function About() {
 
   return (
     <div className={styles.mainContainer}>
-      {/* <Drawer/> */}
       <div className={styles.subDiv}>
       <div><Navbar /></div>
 
@@ -25,10 +24,11 @@ function About() {
      <div className={styles.bgImage}><h2 className={styles.heading2}>Watch Short Video</h2>
       <div className={styles.bgDisplay}>
       <div className={styles.bgColor}>
-        <div className={styles.bgDisplay}><img className={styles.image} src={"/play.png"} alt="image not found"/></div></div>
+        <div className={styles.bgDisplay}><Image className={styles.image} src={"/play.png"} alt="image not found"/></div></div>
       </div>
       <p className={styles.heading3}>Download GreenGuard</p>
-      <div className={styles.margin}><Button1/></div></div>
+      <div className={styles.margin}><Button1/></div>
+      </div>
       </div>
         </div>
   )

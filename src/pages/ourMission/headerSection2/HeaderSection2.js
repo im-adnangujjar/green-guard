@@ -47,7 +47,7 @@ function OurMission() {
         {
           trend.map((item)=>{
 
-            return <Card trend={item}/>
+            return <Card key ={index} trend={item}/>
           })   
         }
         </div>

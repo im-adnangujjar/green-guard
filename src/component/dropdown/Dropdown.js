@@ -16,8 +16,8 @@ function Dropdown({dropDown}) {
       </div>
       <Collapse in={isOpen} animateOpacity>
         <Box
-        width='85%'
-        m='0px 0px 0px 100px'
+        width='100%'
+        m='0px 0px 0px 0px'
           p='40px'
           mt='4'
           bg='white'

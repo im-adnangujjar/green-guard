@@ -24,7 +24,7 @@ function About() {
      <div className={styles.bgImage}><h2 className={styles.heading2}>Watch Short Video</h2>
       <div className={styles.bgDisplay}>
       <div className={styles.bgColor}>
-        <div className={styles.bgDisplay}><Image className={styles.image} src={"/play.png"} alt="image not found"/></div></div>
+        <div className={styles.bgDisplay}><img className={styles.image} src={"/play.png"} alt="image not found"/></div></div>
       </div>
       <p className={styles.heading3}>Download GreenGuard</p>
       <div className={styles.margin}><Button1/></div>

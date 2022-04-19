@@ -1,9 +1,9 @@
-import icon from "../../public/icons1.png"
+import icon from "../../public/image.png"
 // import icon1 from "../../src/assets/icon2.png"
 
 export const data = [
     {
-        // img: icon1,
+        img: icon,
         text: "Eliminate distractions and get your tasks done quicker",
     },
 

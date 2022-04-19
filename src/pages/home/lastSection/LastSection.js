@@ -36,9 +36,11 @@ function LastSection() {
 
  
       {
-         services.map((item)=>{
+         services.map((item,index)=>{
             return(
+              <div key={index}>
               <Adds services={item}/>
+              </div>
             )
          })
 }

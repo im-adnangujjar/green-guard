@@ -12,8 +12,8 @@ function SecondSection() {
         <div>
             <div  className={styles.display}>
 {
-    data.map((item)=>{
-        return <Card1 data={item}/>
+    data.map((item,index)=>{
+        return <Card1 key={index} data={item}/>
     })
 }
 </div>

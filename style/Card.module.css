@@ -7,7 +7,17 @@
     align-items: center;
     width:410px;
     height:172px;
+    margin:0px 0px 30px 0px
 }
+@media screen and (max-width: 380px) {
+    .bgColor{
+        width: 350px;
+        height: 172px;
+    padding:0px 20px
+    }
+}
+    
+
 .heading{
     font-family: Roboto;
 font-size: 48px;
@@ -27,4 +37,15 @@ line-height: 30px;
 text-align: center;
 color:white;
 width:362px
+}
+@media screen and (max-width: 380px) {
+ 
+    .paragraph{
+        font-size: 16px;
+        line-height: 24px;
+        width:250px;
+        margin:20px 0px 0px 0px;
+    
+}
+    
 }

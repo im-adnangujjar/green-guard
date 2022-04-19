@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../../../style/SecondSection.module.css"
 import Card1 from "../../../component/card1/Card1"
-import { data } from "../../../constant/data";
+import { data } from "../../../constant/Data";
 import Button from "../../../component/button/Button";
 
 function SecondSection() {

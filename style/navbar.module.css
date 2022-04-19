@@ -3,9 +3,21 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 16px 80px 0px 120px;
+margin: 16px 80px 0px 80px;
 }
+@media screen and (max-width: 1330px) {
+    .display{
+        margin: 16px 0px 0px 80px;
+    }
 
+        
+}
+@media screen and (max-width: 768px) {
+    .display{
+        margin: 16px 0px 0px 0px;
+    }
+        
+}
 
 .list{
 list-style: none;

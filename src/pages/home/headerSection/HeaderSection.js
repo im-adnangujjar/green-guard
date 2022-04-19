@@ -6,8 +6,9 @@ import Button from '../../../component/button/Button'
 function HeaderSection() {
   return (
     <div className={styles.bgImage}>
-      <Navbar/>
       <div className={styles.subDiv}>
+      <Navbar/>
+      <div className={styles.display}>
         <div className={styles.item}>
           <h1 className={styles.heading}> The Sustainable Adblocker</h1>
           <p className={styles.paragraph}>Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
@@ -17,6 +18,7 @@ function HeaderSection() {
        
         <img className={styles.image} src={"/block.png"} alt="image not found" />
         </div>
+        </div> 
       </div>
 
 

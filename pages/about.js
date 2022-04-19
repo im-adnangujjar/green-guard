@@ -1,13 +1,15 @@
+
 import React from 'react'
-import HeaderSection1 from "../src/pages/about/HeaderSection1.js"
+import HeaderSection1 from "../src/pages/about/headerSection1/HeaderSection1"
+// import FooterSection2  from "../src/pages/about/footerSection/FooterSection2";
 
-function about() {
+export default function about() {
+  
+
   return (
-    <div>
-        <HeaderSection1/>
-
-    </div>
+    <>
+   <HeaderSection1/>
+   {/* <FooterSection2/> */}
+  </>
   )
 }
-
-export default about

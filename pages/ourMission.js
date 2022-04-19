@@ -1,10 +1,11 @@
 import React from 'react'
-import OurMission from "../src/pages/ourMission/ourMission"
+import HeaderSection2 from "../src/pages/ourMission/headerSection2/HeaderSection2"
+
 
 function ourMission() {
   return (
     <div>
-        <OurMission/>
+    <HeaderSection2/>
     </div>
   )
 }

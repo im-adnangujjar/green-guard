@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from "../../../../style/FooterSection.module.css"
+import Button1 from  "../../../component/button1/Button1"
 
 function FooterSection() {
     return (
         <div>
             <div className={styles.shape}></div>
+            
             <div className={styles.bgColor}>
+            <div className={styles.mainContainer}>
                 <div className={styles.display}>
                     <div>
                         <h1 className={styles.heading}>Ending Misclick Anxiety</h1>
@@ -20,6 +23,8 @@ function FooterSection() {
                 </div>
                 <p className={styles.paragraph1}>Block Ads For Good</p>
                 <p  className={styles.paragraph2}>Download GreenGuard Today</p>
+                <div className={styles.margin}><Button1/></div>
+            </div>
             </div>
         </div>
     )

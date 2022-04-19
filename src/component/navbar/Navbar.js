@@ -9,9 +9,8 @@ function Navbar() {
             <img src ={"/Logo.png"} alt ="logo" />
         </div>
         <ul className={styles.list}
-        //  style={{display :'flex',justifyContent:'space-between',width:'50%', listStyle:'none', color :'white'}}>
         >
-          <Link href='/home'>
+          <Link href='/'>
             <li className={styles.li}>Home</li>
             </Link>
             <Link href='/ourMission'>

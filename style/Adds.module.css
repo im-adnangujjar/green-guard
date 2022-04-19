@@ -1,0 +1,41 @@
+.heading {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.heading1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+}
+
+.border {
+    border-top: 4px solid black;
+}
+
+.paragraph {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    width: 190px;
+    color: white;
+    text-align: center;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

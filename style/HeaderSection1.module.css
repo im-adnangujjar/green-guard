@@ -1,10 +1,112 @@
-
-.bgImage{
-    background-image: url('../public/bgImage2.png');
-    background-size: cover;
-    background-position: center;
+.mainContainer {
+    background-image: url("../public/bgImage2.png");
     background-repeat: no-repeat;
-    width:100%;
-    height:1550px;
+    background-size: cover;
+    height:1400px;
+}
+.heading {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    margin: 130px 0px 50px 120px
+}
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 48px;
+        margin: 80px 0px 50px 20px
+    }
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.heading2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin:400px 0px 32px; 
 
 }
+@media screen and (max-width: 768px) {
+    .heading2 {
+        font-size: 32px;
+        line-height: 40px;
+        margin: 330px 0px 32px;
+    }
+}
+.heading3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin:80px 0px 32px; 
+}
+@media screen and (max-width: 768px) {
+  
+    .heading3 {
+        font-size: 32px;
+        line-height: 40px;
+        margin:80px 0px 32px; 
+    }
+}
+.bgImage{
+    background-image: url("../public/bgImage3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    margin-top:-500px ;
+    padding:200px 40px 0px ;
+}
+@media screen and (max-width: 768px) {
+    .bgimage{
+           
+       padding:200px 20px 0px;
+    }
+}
+
+.bgDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 100px;
+    height: auto;
+    margin:200px 0px 0px ;
+}
+@media screen and (max-width: 768px) {
+    .image{
+        width: 80px;
+        margin:50px 0px 0px 
+    }
+}  
+.bgColor {
+    width: 800px;
+    height: 480px;
+    background-color: #05BE70;
+}
+@media screen and (max-width: 900px) {
+    
+   
+    .bgColor {
+        width: 100%;
+        height: 480px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .bgColor {
+        width: 100%;
+        height: 200px;
+    
+}
+    
+}
+    

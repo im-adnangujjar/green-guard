@@ -1,0 +1,38 @@
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    width:200px;
+    height:72px;
+    background-color:white;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+.heading{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 900;
+line-height: 23px;
+color:#049A5B;
+}
+.heading1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+   color:#005D2D;
+    
+}
+
+.display{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   padding:16px 32px 16px 16px
+
+}

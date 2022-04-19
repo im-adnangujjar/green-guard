@@ -1,8 +1,9 @@
 import React from 'react'
-import styles from "../../../style/OurMission.module.css"
-import Card from "../../component/card/Card"
-import FooterSection from "../../../src/pages/ourMission/footerSection/FooterSection"
-import Navbar from "../.././component/navbar/Navbar"
+import Card from "../../../component/card/Card"
+import {trend} from "../../../constant/Data"
+import FooterSection from '../footerSection/FooterSection'
+import Navbar from '../../../component/navbar/Navbar'
+import  styles from "../../../../style/HeaderSection2.module.css"
 
 
 function OurMission() {
@@ -16,13 +17,12 @@ function OurMission() {
             <h3 className={styles.heading1}>At GreenGuard We Take Our Name Literally</h3>
             <p className={styles.paragraph}>We’re the only adblocker (that we know of) that blocks all ads, protects you from malware/tracking and guards the earth while you enjoy a better, faster browsing experience. </p>
           </div>
-          <div>
             <img className={styles.margin} src={"/image1.png"} alt="image not found" />
-          </div>
         </div>
 
         <div className={styles.tree}><img src={"/tree.png"}/></div>
-        <div style={{ display: 'flex' }}>
+      
+        <div className={styles.display2}>
           <div className={styles.image}>
             <img src={"/leafs.png"} alt="image not found" />
             <h2 className={styles.leafHeading}>Our DNA</h2>
@@ -41,12 +41,20 @@ function OurMission() {
             <p className={styles.leafParagraph}>Obviously, we won’t be cutting down any trees. But with our adblocker, we hope to raise enough funds to replace as many carelessly destroyed trees as we can.</p>
           </div>
         </div>
-        <Card/>
-      </div>
+        
+        <h2 className={styles.heading2} >Reversing the trend</h2>
+        <div className={styles.display}>
+        {
+          trend.map((item)=>{
+
+            return <Card trend={item}/>
+          })   
+        }
+        </div>
+        </div>
       <FooterSection/>
 
-      </div>
-    
+     </div>
   )
 }
 

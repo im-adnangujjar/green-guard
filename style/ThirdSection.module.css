@@ -1,45 +1,109 @@
-
-
-.heading{
-   font-family: Roboto;
-font-size: 48px;
-font-weight: 400;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: left;
+.mainContainer {
+    padding: 0px 60px 0px 64px;
 }
 
-.heading1{
-
-
-font-family: Roboto;
-font-size: 48px;
-font-weight: 900;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: left;
-
-} 
-.display{
-display : flex;
-justify-content: space-around;
-align-items: center;
-margin-bottom:120px ;
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        padding: 0px 20px 0px 20px;
+    }
 }
-.paragraphs{
+
+.heading {
     font-family: Roboto;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-width:568px;
-height: auto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #05BE70
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 32px;
+        line-height: 40px;
+
+    }
 
 }
-.paragraphs2{
+
+.heading1 {
+
+
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #005D2D;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .heading1 {
+        font-size: 32px;
+        line-height: 28px;
+    }
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width:1320px) {
+    .display {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.paragraphs {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
+    width: 568px;
+    height: auto;
 
-    
+}
+
+@media screen and (max-width:760px) {
+    .paragraphs {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
+.paragraphs2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 568px;
+    height: auto;
+    margin-right: 67px;
+
+}
+
+@media screen and (max-width:760px) {
+
+    .paragraphs2 {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .image {
+        width: 100%;
+        margin: 32px 0px 0px 0px;
+
+    }
 }

@@ -5,7 +5,8 @@
     display:flex;
     justify-content:center;
     align-items: center;
-}
+
+} 
 .buttonText {
     font-family: Roboto;
     font-size: 16px;
@@ -13,7 +14,7 @@
     line-height: 24px;
     letter-spacing: 0.05em;
     margin-left: 10px;
-    margin-top: 20px;
+
 }
 .button{
     background-color: white;
@@ -21,12 +22,8 @@
     border: none;
     color: #049A5B;
     width:287px;
+    height:50px;
+   padding-top: 15px;
     text-decoration: none;
     cursor: pointer;
 }
-/* .mainContainer{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-   
-} */

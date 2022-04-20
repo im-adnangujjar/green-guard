@@ -7,7 +7,7 @@ export const data = [
     },
 
     {
-        imgs: "../images/icon2.png",
+        imgs: "../images/icons2.png",
         text: "Help your web pages load up to 90% faster",
     },
     {

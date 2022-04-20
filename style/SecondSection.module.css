@@ -50,3 +50,8 @@ padding-top: 700px;
     padding:0px 50px 300px;
 
 }
+@media screen and (max-width: 720px) {
+    .display1 {
+        padding: 0px 20px 770px;
+    }
+}

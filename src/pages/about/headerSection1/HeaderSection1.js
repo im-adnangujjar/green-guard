@@ -16,7 +16,7 @@ function About() {
       {
         dropDown.map((item, index) => {
           return (
-            <Dropdown key={idex} dropDown={item} />
+            <Dropdown key={index} dropDown={item} />
           )
         }
         )}

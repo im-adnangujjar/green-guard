@@ -7,7 +7,7 @@ function Card({trend}) {
           
       
     <div className={styles.bgColor}>
-       <img src={"/icon1.png"} alt="image not found" />
+       <img src={trend.img} alt="image not found" />
        <p className={styles.paragraph}>{trend.title}</p>
 
     </div>

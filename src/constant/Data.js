@@ -1,53 +1,54 @@
-import icon from "../../public/image.png"
-// import icon1 from "../../src/assets/icon2.png"
+
 
 export const data = [
     {
-        img: icon,
+        imgs: "../images/icons1.png",
         text: "Eliminate distractions and get your tasks done quicker",
     },
 
     {
-        img: icon,
+        imgs: "../images/icon2.png",
         text: "Help your web pages load up to 90% faster",
     },
     {
-        img: "",
+        imgs: "../images/userIcon.png",
         text: "Keep businesses and data hackers from tracking you",
     },
     {
-        img: "",
+        imgs: "../images/icon4.png",
         text: "Save money by reducing your bandwidth",
     },
     {
-        img: "",
+        imgs: "../images/icon5.png",
         text: "Cleaner websites and reader-friendly pages",
     },
     {
-        img: "",
+        imgs: "../images/icon6.png",
         text: "Guard your privacy — no tracking or unwanted ads",
     },
     {
-        img: "",
+        imgs: "../images/icon7.png",
         text: "Avoid malicious downloads, ads and Malvertising",
     },
     {
-        img: "",
+        imgs: "../images/icon8.png",
         text: "Avoid malicious downloads, ads and Malvertising",
     },
 
 ]
+
+
 export const trend = [
     {
-        image: "",
+        img: "../images/icon1.png",
         title: "The UN announced 2021-2030 will be dedicated to Ecosystem Restoration",
     },
     {
-        image: "",
+        img: "../images/icon2.png",
         title: "The UN announced 2021-2030 will be dedicated to Ecosystem Restoration",
     },
     {
-        image: "",
+        img: "../images/userIcon1.png",
         title: "The UN announced 2021-2030 will be dedicated to Ecosystem Restoration",
     }
 ]

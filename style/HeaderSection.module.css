@@ -101,6 +101,14 @@
         width: 80%;
     }
 }
+@media screen and (max-width: 768px) {
+    .paragraph {
+      
+        width: 100%;
+        margin:  0px;
+    }
+    
+}
 
 @media screen and (max-width: 550px) {
     .paragraph {

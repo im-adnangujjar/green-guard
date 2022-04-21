@@ -2,7 +2,7 @@
     padding: 0px 60px 0px 64px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1320px) {
     .mainContainer {
         padding: 0px 20px 0px 20px;
     }
@@ -24,12 +24,8 @@
         line-height: 40px;
 
     }
-
 }
-
 .heading1 {
-
-
     font-family: Roboto;
     font-size: 48px;
     font-weight: 900;
@@ -39,7 +35,6 @@
     color: #005D2D;
 
 }
-
 @media screen and (max-width: 768px) {
 
     .heading1 {
@@ -47,7 +42,6 @@
         line-height: 28px;
     }
 }
-
 .display {
     display: flex;
     justify-content: space-between;
@@ -56,9 +50,9 @@
     margin-bottom: 120px;
 }
 
-@media screen and (max-width:1320px) {
+@media screen and (max-width:1200px) {
     .display {
-        display: flex;
+        display: block;
         justify-content: center;
 
     }
@@ -73,7 +67,13 @@
     height: auto;
 
 }
-
+@media screen and (max-width: 768px) {
+    .paragraphs {
+      
+        width: 90%;
+        height: auto;
+    }
+}
 @media screen and (max-width:760px) {
     .paragraphs {
         width: 100%;
@@ -88,8 +88,13 @@
     line-height: 36px;
     width: 568px;
     height: auto;
-    margin-right: 67px;
+    /* margin-right: 67px; */
 
+}
+@media screen and (max-width:1200px) {
+    .paragraphs2 {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:760px) {
@@ -100,7 +105,13 @@
     }
 }
 
-@media screen and (max-width:1320px) {
+.image {
+    width: 560px;
+    height: auto;
+    margin-left:10px
+}
+
+@media screen and (max-width:1200px) {
     .image {
         width: 100%;
         margin: 32px 0px 0px 0px;

@@ -7,19 +7,22 @@ function HeaderSection() {
   return (
     <div className={styles.bgImage}>
       <div className={styles.subDiv}>
-      <Navbar/>
-      <div className={styles.display}>
-        <div className={styles.item}>
-          <h1 className={styles.heading}> The Sustainable Adblocker</h1>
-          <p className={styles.paragraph}>Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
-         <Button/>
-          <p className={styles.paragraph3}>It’s free to help the earth breathe</p>
-           </div>
-       
-        <img className={styles.image} src={"/block.png"} alt="image not found" />
+        <div className={styles.Navigation}>
+        <Navbar />
         </div>
-        </div> 
+        <div className={styles.display}>
+          <div className={styles.item}>
+            <h1 className={styles.heading}> The Sustainable Adblocker</h1>
+            <p className={styles.paragraph}>Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
+            <Button />
+            <p className={styles.paragraph3}>It’s free to help the earth breathe</p>
+          </div>
+          <div className={styles.image}>
+            <img  src={"/block.png"} alt="image not found" />
+          </div>
+        </div>
       </div>
+    </div>
 
 
   )

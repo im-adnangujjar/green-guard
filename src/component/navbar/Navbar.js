@@ -46,9 +46,11 @@ function Navbar() {
 
       {show?
 
-      <div>
+      <div >
         <ul className={styles.listItem}
-    >
+    ><div className={styles.center}>
+
+    
       <Link href='/'>
         <li className={styles.li}>Home</li>
         </Link>
@@ -59,6 +61,7 @@ function Navbar() {
         <li className={styles.li}>About</li>
         </Link>
         <div className={styles.button}>download</div>
+        </div>
     </ul>
       </div>
       :''

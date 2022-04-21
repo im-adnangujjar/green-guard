@@ -4,6 +4,14 @@
     background-size: cover;
     height:1400px;
 }
+.Navigation{
+    margin:0px 40px 0px 70px
+}
+@media screen and (max-width: 768px){
+    .Navigation{
+        margin:10px 40px 0px 0px
+    }
+}
 .heading {
     font-family: Roboto;
     font-size: 64px;
@@ -17,9 +25,8 @@
         margin: 80px 0px 50px 20px
     }
 }
-.image{
-    width: 100%;
-    height: auto;
+.navigation{
+    margin:0px 40px 0px 0px
 }
 .heading2 {
     font-family: Roboto;
@@ -81,13 +88,13 @@
     width: 100px;
     height: auto;
     margin:200px 0px 0px ;
-}
-@media screen and (max-width: 768px) {
+} 
+@media screen and (max-width: 600px) {
     .image{
         width: 80px;
-        margin:50px 0px 0px 
-    }
-}  
+        margin:100px 0px 0px 
+    } 
+}   
 .bgColor {
     width: 800px;
     height: 480px;
@@ -101,10 +108,10 @@
         height: 480px;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
     .bgColor {
         width: 100%;
-        height: 200px;
+        height: 300px;
     
 }
     

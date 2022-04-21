@@ -6,21 +6,43 @@
 }
 
 .subDiv {
-  
+
     padding: 0px 40px;
 }
+
 @media screen and (max-width: 768px) {
     .subDiv {
         padding: 0px 20px;
     }
 }
+.Navigation{
+    margin:0px 0px 0px 70px;
+}
+
+@media screen and (max-width: 1330px) {
+    .Navigation{
+        margin:10px 0px 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Navigation{
+        margin:0px 0px 0px;
+    }
+}
+    
 .display {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-    
+
+@media screen and (max-width: 1270px) {
+    .display {
+        display: block;
+    }
+}
+
 
 .heading {
     font-family: Roboto;
@@ -31,8 +53,18 @@
     text-align: left;
     width: 528px;
     color: white;
-    margin: 136px 0px 0px 
+    margin: 136px 0px 0px
 }
+
+@media screen and (max-width: 1270px) {
+    .heading {
+
+        width: 100%;
+
+    }
+
+}
+
 @media screen and (max-width: 550px) {
     .heading {
         font-size: 48px;
@@ -41,6 +73,7 @@
         margin: 80px 0px 0px 0px;
     }
 }
+
 @media screen and (max-width: 370px) {
     .heading {
         font-size: 30px;
@@ -61,6 +94,14 @@
     width: 450px;
     margin: 16px 0px 32px 0px;
 }
+
+@media screen and (max-width: 1270px) {
+    .paragraph {
+
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .paragraph {
         font-size: 18px;
@@ -73,16 +114,19 @@
 .item {
     margin: 0px 0px 0px 80px
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1330px) {
     .item {
-        margin: 0px 0px 0px 0px
+        margin: 0px 0px 0px 20px
     }
 }
-    
 
-/* .image {
-    margin-bottom: 1200px;
-} */
+@media screen and (max-width: 760px) {
+    .item {
+        margin: 0px;
+    }
+
+}
 
 .paragraph3 {
     font-family: Roboto;
@@ -93,4 +137,16 @@
     /* text-align: left; */
     color: white;
     /* margin:72px 0px 1300px; */
+}
+.image{
+    /* width:100%; */
+    display:flex;
+    justify-content:center;
+}
+@media screen and (max-width: 1270px) {
+    .image {
+
+        width: 100%;
+    }
+
 }

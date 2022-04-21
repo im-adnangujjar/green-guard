@@ -10,7 +10,8 @@ function About() {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.subDiv}>
-      <div><Navbar /></div>
+        <div className={styles.Navigation} > <Navbar /></div>
+      
 
       <h2 className={styles.heading}>FAQ</h2>
       {
